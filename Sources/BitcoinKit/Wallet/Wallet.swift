@@ -25,6 +25,7 @@
 
 import Foundation
 
+
 // Some of default parameters of Wallet class [utxoProvider, transactionHistoryProvider, transactionBroadcaster] are only compatible with Bitcoin Cash(BCH).
 // They are using rest.bitcoin.com API endpoints and the endpoints are only available for Bitcoin Cash(BCH).
 // If you want to use BTC, please implement
